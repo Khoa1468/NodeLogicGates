@@ -1,12 +1,19 @@
 {
   "name": "@khoa1468/logic-gates",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Simple logic gates for nodejs",
   "main": "dist/index.js",
   "typings": "dist/types/index.d.ts",
   "scripts": {
     "test": "node build.js && node ./dist/test.js"
   },
+  "workspaces": [
+    "dist/*"
+  ],
+  "files": [
+    "dist/*",
+    "dist/**/*"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Khoa1468/NodeLogicGates.git"
