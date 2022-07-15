@@ -1,0 +1,19 @@
+{
+  "name": "node-logic-gates",
+  "version": "0.0.1",
+  "description": "Simple logic gates for nodejs",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Khoa1468/NodeLogicGates.git"
+  },
+  "author": "Khoa1468",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Khoa1468/NodeLogicGates/issues"
+  },
+  "homepage": "https://github.com/Khoa1468/NodeLogicGates#readme"
+}
