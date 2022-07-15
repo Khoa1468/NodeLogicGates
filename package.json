@@ -1,10 +1,11 @@
 {
-  "name": "node-logic-gates",
+  "name": "@khoa1468/logic-gates",
   "version": "0.0.1",
   "description": "Simple logic gates for nodejs",
   "main": "dist/index.js",
+  "typings": "dist/types/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node build.js && node ./dist/test.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/Khoa1468/NodeLogicGates/issues"
   },
-  "homepage": "https://github.com/Khoa1468/NodeLogicGates#readme"
+  "homepage": "https://github.com/Khoa1468/NodeLogicGates#readme",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "directories": {
+    "lib": "lib"
+  }
 }
